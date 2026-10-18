@@ -1,5 +1,4 @@
-// Sistema multiagente (arquitectura centralizada de la Hoja 5). Las herramientas ya no se definen aquí:
-// cada especialista las obtiene del servidor MCP, filtradas a las que le corresponden.
+
 import { Agent, MCPServerStreamableHttp, createMCPToolStaticFilter } from "@openai/agents";
 import { MODELO } from "./config.js";
 import { hoyEnGuatemala } from "./servicios/clima.js";
