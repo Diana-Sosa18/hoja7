@@ -5,6 +5,10 @@ El sistema multiagente de Parachute S.A. (Hoja 5, arquitectura centralizada) se 
 - **MCP**: las herramientas de todos los agentes viven en un solo servidor MCP con transporte **Streamable HTTP**.
 - **A2A**: el sistema multiagente completo se publica como **un solo agente** con tres skills, y la interfaz de terminal es un **cliente A2A**.
 
+## Video
+
+Demostración del servidor MCP, el servidor A2A y la terminal como cliente A2A: https://youtu.be/vckT0zZseMk
+
 ```mermaid
 flowchart LR
     T["Terminal<br/>cliente.js<br/>(cliente A2A)"] -- "A2A JSON-RPC<br/>message/stream" --> A
